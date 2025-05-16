@@ -33,6 +33,12 @@ CLICKHOUSE_PASSWORD=your_password
 CLICKHOUSE_DB=lrs_prod
 ```
 
+4. Run
+
+```bash
+uvicorn main:app --host 0.0.0.0 --port 10000 --reload
+```
+
 ## API Docs
 
 ```bash
